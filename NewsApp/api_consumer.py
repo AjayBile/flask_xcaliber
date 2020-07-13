@@ -10,3 +10,5 @@ class NewsApiParser():
     def getAllData(self):
         response = requests.get(self.url)
         return json.loads(response.text)
+
+
